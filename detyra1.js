@@ -1,18 +1,14 @@
-const cmimiLibrit=12.50;
-const cmimiFletores=1.80;
+let Aktivitetit=18;
+let Projekti=24;
+let Provimi=43;
 
-const sasiaLibrit=4;
-const sasiaFletoreve=3;
+let resultati=Aktiviteti+Projekti+Provimi;
+let perqindja=(resultati/100)*100;
 
-let rezultati1=cmimiLibrit*sasiaLibrit;
-let rezultati2=cmimiFletores*sasiaFletoreve;
+console.log("Para ndryshimit te pikeve", perqindja);
 
-let totali=resulati1+resultati2;
+Provimi=48;
+ resultati=Aktiviteti+Projekti+Provimi;
+ perqindja=(resultati/100)*100;
 
-totali+=2.50;
-
-console.log("Fature e librarise");
-console.log("Totali i librave",rezultati1);
-console.log("Totali i Fletoreve",rezultati2);
-console.log("Transporti eshte 2.50");
-console.log("Totali perfundimtar" + totali);
+console.log("Pas ndryshimit te pikeve", perqindja);
