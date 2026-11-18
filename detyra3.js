@@ -1,5 +1,6 @@
 let cmimiProduktit1=25;
 let cmimiProduktit2=24;
+let kostoTransportit=4.0;
 
 const sasiaProduktit1=2;
 const sasiaProduktit2=1;
@@ -18,3 +19,4 @@ console.log("Cmimi para zbritjes:",cmimiParaZbritjes);
 console.log("Shuma e zbritjes:",shumaZbritjes);
 console.log("Cmimi pas zbritjes:",cmimiPasZbritjes);
 console.log("Cmimi perfundimtar:",cmimiPerfundimtar);
+console.log("Kostoja e transportit:",kostoTransportit);

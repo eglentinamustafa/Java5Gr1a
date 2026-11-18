@@ -14,7 +14,7 @@ let shuma = numr1 + numr2 + numr3;
 let mesatarja = shuma/3;
 
 console.log("Shuma:",shuma);
-console.log("Mesatarja:"mesatarja.toFixed(2));
+console.log("Mesatarja:" ,+ mesatarja.toFixed(2));
 
 console.log("Tipi i shumes:",typeof shuma);
 console.log("Tipi i mesatares:",typeof mesatarja);
